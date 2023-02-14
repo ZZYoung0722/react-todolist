@@ -35,7 +35,7 @@ function TodoInsert(props) {
                     ref={ref}
                     type="text"
                     name="text"
-                    placeholder="Hey, input here -"
+                    placeholder="여기에 입력하세요."
                     value={content}
                     onChange={handleChange}
                 />
