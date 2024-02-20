@@ -14,6 +14,17 @@ function App() {
     );
 }
 
+function App1() {
+    return (
+        <Fragment>
+            <GlobalStyle />
+            <Container>
+                <TodoTemplate />
+            </Container>
+        </Fragment>
+    );
+}
+
 const GlobalStyle = createGlobalStyle`
   body {
     background-color: #425364;
